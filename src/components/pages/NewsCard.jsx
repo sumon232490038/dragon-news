@@ -17,7 +17,7 @@ const NewsCard = ({ singleNews }) => {
   return (
     <div className="card w-full bg-base-100 shadow-md rounded-lg">
       {/* Header */}
-      <div className="flex items-center justify-between p-4">
+      <div className="flex items-center justify-between bg-base-200 p-4 mb-5">
         <div className="flex items-center gap-3">
           <img
             src={author.img}

@@ -5,7 +5,7 @@ const LoginWith = () => {
   return (
     <div>
       <h1 className="font-bold">Login With</h1>
-      <div className="flex flex-col *:w-full space-y-2 mt-2">
+      <div className="flex flex-col *:w-full space-y-2 mt-4">
         <button className="btn">
           {" "}
           <FaGoogle></FaGoogle> Logiin With Google
